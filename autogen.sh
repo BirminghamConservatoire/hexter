@@ -10,7 +10,7 @@ case `uname -s` in
       ;;
   Darwin)
       LIBTOOLIZE=glibtoolize
-      ACLOCALARGS='-I /usr/local/share/aclocal'
+      ACLOCALARGS='-I /usr/local/share/aclocal -I m4'
       ;;
   *)  echo error: unrecognized OS
       exit
