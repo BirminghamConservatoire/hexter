@@ -1,4 +1,19 @@
 ## Process this file with automake to produce Makefile.in
+MAINTAINERCLEANFILES = config.guess \
+			config.h.in \
+			config.sub \
+			tmain.sh \
+			m4/lt* \
+			m4/libtool.m4 \
+			ltmain.sh \
+			compile \
+			configure \
+			depcomp \
+			install-sh \
+			Makefile.in \
+			missing \
+			src/Makefile.in
+			aclocal.m4
 
 SUBDIRS = src
 
