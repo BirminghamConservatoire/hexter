@@ -1,5 +1,7 @@
 ## Process this file with automake to produce Makefile.in
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 if BUILD_TEXTUI
 textui_PROGRAMS = hexter_text
 endif

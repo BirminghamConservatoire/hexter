@@ -36,5 +36,5 @@ dist_pkgdata_DATA = extra/dx7_roms.dx7 \
 	extra/fb01_roms_converted_5.dx7 \
 	extra/tx7_roms.dx7
 
-AUTOMAKE_OPTIONS = foreign
-
+AUTOMAKE_OPTIONS = foreign subdir-objects
+ACLOCAL_AMFLAGS = -I m4
